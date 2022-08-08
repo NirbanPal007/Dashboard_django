@@ -1,0 +1,122 @@
+
+.col-6 {
+    /* border: 2px solid black; */
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    color: white;
+}
+
+.container-fluid {
+    background-image: url(bg1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.row {
+    height: 100vh;
+}
+.second{
+    height: inherit;
+}
+
+.form-signin {
+    margin: 6vw;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: #61f5f585;
+    
+}
+
+.btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 3.3rem;
+
+}
+
+.btn {
+    width: 70%;
+}
+
+.form-label-group {
+    width: 70%;
+}
+
+.logo2 {
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1080px) {
+    .first {
+        display: none;
+    }
+
+    .second {
+        max-width: 100% !important;
+        flex: 0 0 100%;
+
+    }
+
+    .logo2 {
+        visibility: visible;
+    }
+
+    /* .row{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+
+    } */
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 3.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.label {
+    display: inline-block;
+    margin-bottom: -0.5rem;
+}
+
+.form-signin {
+    margin: 6vw;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: #61f5f585;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.google, .facebook, .twitter{
+    background-color: white;
+    border-radius: 50%;
+    height: 30px ;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
